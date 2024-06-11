@@ -27,8 +27,8 @@ const getPostMetadata = () : PostMetadata[] => {
 
 const HomePage = () => {
   const postMetadata = getPostMetadata();
-  const postPreviews = postMetadata.map((post) => 
-    <div>
+  const postPreviews = postMetadata.map((post, index) => 
+    <div key={index}>
       <Link href={`/posts/${post.slug}`}>
         <h2>{post.title}</h2>
       </Link>
