@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Head from "./head"
 
 export const metadata = {
@@ -13,7 +14,9 @@ export default function RootLayout({
 
   const header = (
     <header>
-      <h1>Ghita's Blog</h1>
+      <Link href="/">
+        <h1>Ghita's blog</h1>
+      </Link>
       <p>Welcome to my tech blog</p>
     </header>
   )
