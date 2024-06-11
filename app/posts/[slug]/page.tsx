@@ -10,6 +10,9 @@ const getPostContent = (slug: string) => {
     return matterResult;;
 };
 
+export const generateStaticParams = async () => {
+    return [{slug : "aws-quickstart"}];
+}
 
 const PostPage = ({ params }: { params: { slug: string } }) => {
     const slug = params.slug;
