@@ -1,3 +1,4 @@
+import getPostMetadata from "@/components/getPostMetadata";
 import fs from 'fs';
 import matter from 'gray-matter';
 import Markdown from 'markdown-to-jsx';
@@ -11,7 +12,11 @@ const getPostContent = (slug: string) => {
 };
 
 export const generateStaticParams = async () => {
-    return [{slug : "aws-quickstart"}];
+    const posts = getPostMetadata();
+    const paths = posts.map((post) => (
+        {slug: post.slug}
+    ));
+    return paths
 }
 
 const PostPage = ({ params }: { params: { slug: string } }) => {
