@@ -16,7 +16,7 @@ export default function RootLayout({
   const header = (
     <header>
       <Link href="/">
-        <h1>Ghita's blog</h1>
+        <h1 className="text-3x1 font-bold underline">Ghita's blog</h1>
       </Link>
       <p>Welcome to my tech blog</p>
     </header>
