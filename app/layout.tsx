@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Head from "./head"
+import "@/styles/global.css"
 
 export const metadata = {
   title: 'Next.js',
