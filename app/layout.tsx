@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Head from "./head"
+import Image from "next/image"
 import "@/styles/global.css"
 
 export const metadata = {
@@ -16,6 +17,7 @@ export default function RootLayout({
   const header = (
     <header>
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
+        <Image src="/logo.png" alt="logo" width={40} height={40} className="mx-auto"/>
         <Link href="/">
           <h1 className="text-3x1 text-blue-500 underline font-bold">Ghita's blog</h1>
         </Link>

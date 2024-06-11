@@ -24,8 +24,10 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
     const post = getPostContent(slug);
     return (
      <div>
-        <h1>{post.data.title}</h1>
-        <Markdown>{post.content}</Markdown>
+        <h1 className="text-2x1 text-violet-600">{post.data.title}</h1>
+        <article className="prose lg:prose-x1">
+            <Markdown>{post.content}</Markdown>
+        </article>
      </div>
     );
 };
