@@ -4,6 +4,8 @@ subtitle: "My blog introduction"
 date: "2024-06-12"
 ---
 # My First Blog Entry
+![Image](/images/writing.png)
+
 
 Welcome to my technical blog! In this first entry, and hopefully I will add updates as I go along.
 
