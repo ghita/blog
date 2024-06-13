@@ -1,7 +1,9 @@
 import Link from "next/link"
 import Head from "./head"
 import Image from "next/image"
+import config from "@/next.config.mjs"
 import "@/styles/global.css"
+
 
 export const metadata = {
   title: 'Next.js',
@@ -17,7 +19,7 @@ export default function RootLayout({
   const header = (
     <header>
       <div className="text-center bg-gray-800 p-8 my-6 rounded-md">
-        <Image src="/author.jpeg" alt="logo" width={40} height={40} className="mx-auto rounded-full"/>
+        <Image src={`${config.basePath}/author.jpeg`} alt="logo" width={40} height={40} className="mx-auto rounded-full"/>
         <Link href="/">
           <h1 className="text-3xl text-blue-300 underline font-bold">Ghita's blog</h1>
         </Link>
