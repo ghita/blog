@@ -4,7 +4,7 @@ subtitle: "My blog introduction"
 date: "2024-06-12"
 ---
 # My First Blog Entry
-![Image](/images/writing.png)
+![Image](blog/images/writing.png)
 
 
 Welcome to my technical blog! In this first entry, and hopefully I will add updates as I go along.
@@ -26,7 +26,3 @@ I plan to cover a wide range of topics, including:
 - Cloud computing
 - DevOps practices and tools
 - Data science and machine learning
-
-## Conclusion
-
-I'm excited to embark on this blogging journey and share my knowledge with you all. Stay tuned for more informative and insightful articles coming soon!
