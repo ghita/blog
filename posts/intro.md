@@ -15,7 +15,7 @@ I am a software engineer with interest in software languages and emerging techno
 
 ## Purpose of This Blog
 
-The main purpose of this blog is to share my knowledge and insights about thing I find interesting.
+The main purpose of this blog is to share my knowledge and insights about things I find interesting.
 
 ## Topics I'll Cover
 
