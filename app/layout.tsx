@@ -28,7 +28,7 @@ export default function RootLayout({
             <h1 className="text-blue-300 underline">About</h1>
           </Link>
         </div>
-        <p className="text-color">Welcome to my tech blog.</p>
+        <p><b>I moved my content to <a href="https://specificly.net" style={{ textDecorationLine: 'underline' }}>my own domain.</a> Please reach me there.</b></p>
       </div>
     </header>
   )
